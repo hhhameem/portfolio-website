@@ -1,0 +1,85 @@
+body {
+    font-family: "Lora", serif;
+    background-image: url(../images/bg.svg);
+    margin: 0;
+}
+.flex-display {
+    display: flex;
+    margin-bottom: 150px;
+}
+.split-section {
+    width: 40%;
+}
+.left-padding {
+    padding-left: 7%;
+}
+.right-padding {
+    padding-right: 7%;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-image: linear-gradient(
+        to right,
+        rgb(235, 105, 53),
+        rgb(240, 240, 42)
+    );
+    border-radius: 10px;
+}
+p {
+    margin-bottom: 30px;
+}
+span {
+    color: rgb(255, 94, 0);
+}
+.image {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+button {
+    padding: 10px 40px;
+    background-image: linear-gradient(to right, red, rgb(241, 117, 45));
+    border-radius: 10px;
+    border: none;
+}
+
+.right-banner {
+    background-image: url(../images/right-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp_area {
+    background-image: url(../images/left-bg.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+#first-exp {
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+}
+#second-exp {
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, red, yellow) border-box;
+}
+.exp {
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 5px grey;
+    border-left: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+
+footer p {
+    text-align: center;
+}
